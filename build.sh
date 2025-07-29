@@ -22,7 +22,7 @@ ANYKERNEL_REPO="https://github.com/YuzakiKokuban/AnyKernel3.git"
 ANYKERNEL_BRANCH="kalama"
 
 # 6. 输出文件名前缀
-ZIP_NAME_PREFIX="S23_"
+ZIP_NAME_PREFIX="S23"
 
 # 7. GitHub Release 配置
 GITHUB_REPO="AdenXie/android_kernel_samsung_sm8550_S23"
