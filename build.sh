@@ -9,7 +9,7 @@ set -e
 MAIN_DEFCONFIG=kalama_gki_defconfig
 
 # 2. 内核版本基础标识
-LOCALVERSION_BASE=-android13-Kokuban-Firefly-DYF1-SukiSUU
+LOCALVERSION_BASE=-AdenKernel-DYG1
 
 # 3. LTO (Link Time Optimization)
 LTO="thin"
@@ -22,10 +22,10 @@ ANYKERNEL_REPO="https://github.com/YuzakiKokuban/AnyKernel3.git"
 ANYKERNEL_BRANCH="kalama"
 
 # 6. 输出文件名前缀
-ZIP_NAME_PREFIX="S23_kernel"
+ZIP_NAME_PREFIX="S23_"
 
 # 7. GitHub Release 配置
-GITHUB_REPO="YuzakiKokuban/android_kernel_samsung_sm8550_S23"
+GITHUB_REPO="AdenXie/android_kernel_samsung_sm8550_S23"
 AUTO_RELEASE=true
 # 设置为 true 以发布为 Pre-release (预发布), 可被 Actions 的输入覆盖
 IS_PRERELEASE=${IS_PRERELEASE:-true}
